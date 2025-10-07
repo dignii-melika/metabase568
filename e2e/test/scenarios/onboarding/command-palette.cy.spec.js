@@ -343,7 +343,7 @@ describe("command palette", () => {
     cy.signOut();
     cy.visit("/");
 
-    cy.findByRole("heading", { name: "Sign in to Metabase" });
+    cy.findByRole("heading", { name: "Sign in to Dignii Dashboard" });
 
     H.openCommandPalette();
     H.commandPalette().should("not.exist");
