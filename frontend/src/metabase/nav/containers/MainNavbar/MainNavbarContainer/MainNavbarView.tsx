@@ -47,7 +47,7 @@ import type { SelectedItem } from "../types";
 import { AddDataModal } from "./AddDataModal";
 import BookmarkList from "./BookmarkList";
 import { BrowseNavSection } from "./BrowseNavSection";
-import { GettingStartedSection } from "./GettingStartedSection";
+//import { GettingStartedSection } from "./GettingStartedSection";
 
 interface CollectionTreeItem extends Collection {
   icon: IconName | IconProps;
@@ -153,7 +153,7 @@ export function MainNavbarView({
             </PaddedSidebarLink>
           </SidebarSection>
 
-          {shouldDisplayGettingStarted && (
+          {/* {shouldDisplayGettingStarted && (
             <SidebarSection>
               <ErrorBoundary>
                 <GettingStartedSection
@@ -176,7 +176,7 @@ export function MainNavbarView({
                 </GettingStartedSection>
               </ErrorBoundary>
             </SidebarSection>
-          )}
+          )} */}
 
           {bookmarks.length > 0 && (
             <SidebarSection>
