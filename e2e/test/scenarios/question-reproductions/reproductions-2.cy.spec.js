@@ -248,7 +248,7 @@ describe("issue 27104", () => {
 
     cy.findByTestId("qb-filters-panel").findByText("Count is greater than 0");
     // Check bars count
-    H.chartPathWithFillColor("#509EE3").should("have.length", 5);
+    H.chartPathWithFillColor("#5A479C").should("have.length", 5);
   });
 });
 

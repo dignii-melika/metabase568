@@ -8,7 +8,7 @@ describe("getDerivedDefaultColorsForEmbedFlow", () => {
       colors: {
         background: "#ffffff",
         "text-primary": "#333333",
-        brand: "#509ee3",
+        brand: "#5A479C",
         border: "#d9d9d9",
       },
     };
@@ -28,7 +28,7 @@ describe("getDerivedDefaultColorsForEmbedFlow", () => {
       colors: {
         background: "#1a1a1a",
         "text-primary": "#ffffff",
-        brand: "#509ee3",
+        brand: "#5A479C",
       },
     };
 

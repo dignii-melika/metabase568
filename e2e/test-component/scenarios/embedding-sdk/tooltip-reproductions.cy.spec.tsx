@@ -71,7 +71,7 @@ describe("scenarios > embedding-sdk > tooltip-reproductions", () => {
       });
 
       H.getDashboardCard(0).within(() => {
-        H.chartPathWithFillColor("#509EE3").eq(0).realHover();
+        H.chartPathWithFillColor("#5A479C").eq(0).realHover();
       });
 
       cy.findAllByTestId("echarts-tooltip")

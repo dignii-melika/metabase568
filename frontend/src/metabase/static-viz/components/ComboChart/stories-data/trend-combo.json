@@ -140,7 +140,7 @@
       "visualization_settings": {
         "series_settings": {
           "avg": { "color": "#88BF4D" },
-          "avg_2": { "display": "area", "color": "#509EE3" },
+          "avg_2": { "display": "area", "color": "#5A479C" },
           "stddev": { "color": "#8A5EB0" }
         },
         "graph.show_trendline": true,
@@ -1166,7 +1166,7 @@
       "viz-settings": {
         "series_settings": {
           "avg": { "color": "#88BF4D" },
-          "avg_2": { "display": "area", "color": "#509EE3" },
+          "avg_2": { "display": "area", "color": "#5A479C" },
           "stddev": { "color": "#8A5EB0" }
         },
         "graph.show_trendline": true,

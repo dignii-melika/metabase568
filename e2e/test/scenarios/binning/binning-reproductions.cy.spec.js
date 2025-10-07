@@ -275,7 +275,7 @@ describe("binning related reproductions", () => {
         toBinning: "10 bins",
       });
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
 
     it("should work for notebook mode", () => {
@@ -296,7 +296,7 @@ describe("binning related reproductions", () => {
 
       H.visualize();
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
   });
 

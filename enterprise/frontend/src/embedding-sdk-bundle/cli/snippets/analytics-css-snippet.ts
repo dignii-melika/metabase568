@@ -58,13 +58,13 @@ body {
 }
 
 .analytics-header-right > a {
-  color: #509EE3;
+  color: #5A479C;
   text-decoration: none;
 }
 
 .dashboard-select {
   background: transparent;
-  color: #509EE3;
+  color: #5A479C;
   border: none;
   font-family: inherit;
   font-size: 16px;
@@ -72,7 +72,7 @@ body {
 }
 
 .dashboard-select:focus {
-  outline: 1px solid #509EE3;
+  outline: 1px solid #5A479C;
   border-radius: 2px;
 }
 

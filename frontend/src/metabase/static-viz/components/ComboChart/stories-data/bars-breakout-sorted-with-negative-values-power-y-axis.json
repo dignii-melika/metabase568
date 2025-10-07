@@ -33,7 +33,7 @@
                     },
                     {
                         "key": "Gadget",
-                        "color": "#509EE3",
+                        "color": "#5A479C",
                         "enabled": true,
                         "name": "Gadget"
                     },
@@ -49,7 +49,7 @@
                         "color": "#51528D"
                     },
                     "Gadget": {
-                        "color": "#509EE3"
+                        "color": "#5A479C"
                     },
                     "Doohickey": {
                         "color": "#7172AD"

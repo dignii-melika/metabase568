@@ -25,7 +25,7 @@
       "visualization_settings": {
         "series_settings": {
           "avg": {
-            "color": "#509EE3"
+            "color": "#5A479C"
           }
         },
         "graph.x_axis.title_text": "Type",

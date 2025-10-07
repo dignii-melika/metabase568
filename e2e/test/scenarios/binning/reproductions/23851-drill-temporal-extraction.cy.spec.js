@@ -35,8 +35,8 @@ describe("issue 23851", () => {
       { visitQuestion: true },
     );
 
-    H.chartPathWithFillColor("#509EE3").should("have.length", 7);
-    H.chartPathWithFillColor("#509EE3").eq(5).click();
+    H.chartPathWithFillColor("#5A479C").should("have.length", 7);
+    H.chartPathWithFillColor("#5A479C").eq(5).click();
     H.popover().findByText("See these Orders").click();
 
     cy.wait("@dataset");

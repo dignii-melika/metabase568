@@ -124,7 +124,7 @@
         "graph.metrics": ["attack"],
         "graph.y_axis.axis_enabled": true,
         "graph.series_order": null,
-        "series_settings": { "attack": { "color": "#509EE3" } },
+        "series_settings": { "attack": { "color": "#5A479C" } },
         "graph.y_axis.auto_range": false,
         "graph.dimensions": ["type_1"],
         "graph.y_axis.min": 1
@@ -1362,7 +1362,7 @@
         "graph.y_axis.axis_enabled": true,
         "graph.series_order": null,
         "metabase.models.visualization-settings/global-column-settings": {},
-        "series_settings": { "attack": { "color": "#509EE3" } },
+        "series_settings": { "attack": { "color": "#5A479C" } },
         "graph.y_axis.auto_range": false,
         "graph.dimensions": ["type_1"],
         "graph.y_axis.min": 1

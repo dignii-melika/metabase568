@@ -260,7 +260,7 @@ describe("scenarios > binning > from a saved QB question with explicit joins", (
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("25");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
 
     it("should work for longitude", () => {
@@ -282,7 +282,7 @@ describe("scenarios > binning > from a saved QB question with explicit joins", (
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("160° W");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
   });
 });
@@ -312,7 +312,7 @@ function assertQueryBuilderState({
   if (visualizationSelector === "circle") {
     H.cartesianChartCircle();
   } else {
-    H.chartPathWithFillColor("#509EE3");
+    H.chartPathWithFillColor("#5A479C");
   }
 
   cy.findByText(title);

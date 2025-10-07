@@ -3608,7 +3608,7 @@
    :entity_id "km2d9-ZqHrlAM79yPh13G",
    :collection_preview true,
    :visualization_settings
-   "{\"column_settings\":{\"[\\\"name\\\",\\\"CREATED_AT\\\"]\":{\"column_title\":\"Date\"}},\"pivot_table.column_split\":{\"columns\":[\"SOURCE\"],\"rows\":[\"CREATED_AT\"],\"values\":[\"sum\"]},\"pivot_table.column_widths\":{\"leftHeaderWidths\":[135],\"totalLeftHeaderWidths\":135,\"valueHeaderWidths\":{\"0\":148,\"1\":158,\"2\":159,\"3\":144,\"4\":139,\"5\":124}},\"table.column_formatting\":[{\"color\":\"#509EE3\",\"colors\":[\"white\",\"#A7D07C\"],\"columns\":[\"sum\"],\"highlight_row\":false,\"id\":0,\"max_type\":null,\"max_value\":100,\"min_type\":null,\"min_value\":0,\"operator\":\"=\",\"type\":\"range\",\"value\":\"\"}]}",
+   "{\"column_settings\":{\"[\\\"name\\\",\\\"CREATED_AT\\\"]\":{\"column_title\":\"Date\"}},\"pivot_table.column_split\":{\"columns\":[\"SOURCE\"],\"rows\":[\"CREATED_AT\"],\"values\":[\"sum\"]},\"pivot_table.column_widths\":{\"leftHeaderWidths\":[135],\"totalLeftHeaderWidths\":135,\"valueHeaderWidths\":{\"0\":148,\"1\":158,\"2\":159,\"3\":144,\"4\":139,\"5\":124}},\"table.column_formatting\":[{\"color\":\"#5A479C\",\"colors\":[\"white\",\"#A7D07C\"],\"columns\":[\"sum\"],\"highlight_row\":false,\"id\":0,\"max_type\":null,\"max_value\":100,\"min_type\":null,\"min_value\":0,\"operator\":\"=\",\"type\":\"range\",\"value\":\"\"}]}",
    :metabase_version nil,
    :parameters "[]",
    :created_at #t "2024-11-22T15:45:05.402208Z",

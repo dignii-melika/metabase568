@@ -49,7 +49,7 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
       cy.findByRole("heading", { name: nativeDashboardDetails.name });
       H.getDashboardCard().contains(nativeQuestionDetails.name);
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 49);
+      H.chartPathWithFillColor("#5A479C").should("have.length", 49);
 
       assertOnXYAxisLabels({ xLabel: "STATE", yLabel: "count" });
 
@@ -70,10 +70,10 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
         .should("contain", "AK")
         .and("not.contain", "TX");
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "68" }],
+        rows: [{ color: "#5A479C", name: "count", value: "68" }],
         blurAfter: true,
       });
 
@@ -91,11 +91,11 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
 
       cy.location("search").should("eq", "?city=Anchorage&state=AK");
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
 
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "1" }],
+        rows: [{ color: "#5A479C", name: "count", value: "1" }],
       });
     });
 
@@ -118,7 +118,7 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
 
       assertOnXYAxisLabels({ xLabel: "STATE", yLabel: "count" });
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 49);
+      H.chartPathWithFillColor("#5A479C").should("have.length", 49);
       H.echartsContainer()
         .get("text")
         .should("contain", "AK")
@@ -141,11 +141,11 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
         .should("contain", "AK")
         .and("not.contain", "TX");
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
 
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "68" }],
+        rows: [{ color: "#5A479C", name: "count", value: "68" }],
         blurAfter: true,
       });
 
@@ -165,11 +165,11 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
 
       cy.location("search").should("eq", "?city=Anchorage&state=AK");
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
 
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "1" }],
+        rows: [{ color: "#5A479C", name: "count", value: "1" }],
       });
     });
 
@@ -187,11 +187,11 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
 
       H.filterWidget().should("have.length", 2);
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
 
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "68" }],
+        rows: [{ color: "#5A479C", name: "count", value: "68" }],
         blurAfter: true,
       });
 
@@ -209,11 +209,11 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
 
       cy.location("search").should("eq", "?city=Anchorage&state=AK");
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
 
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "1" }],
+        rows: [{ color: "#5A479C", name: "count", value: "1" }],
       });
     });
 
@@ -232,11 +232,11 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
         });
       });
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
 
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "68" }],
+        rows: [{ color: "#5A479C", name: "count", value: "68" }],
         blurAfter: true,
       });
 
@@ -253,11 +253,11 @@ describe("scenarios > embedding > dashboard > linked filters (metabase#13639, me
 
       cy.location("search").should("eq", "?city=Anchorage&state=AK");
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 1).realHover();
+      H.chartPathWithFillColor("#5A479C").should("have.length", 1).realHover();
 
       H.assertEChartsTooltip({
         header: "AK",
-        rows: [{ color: "#509EE3", name: "count", value: "1" }],
+        rows: [{ color: "#5A479C", name: "count", value: "1" }],
       });
     });
 

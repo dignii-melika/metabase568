@@ -160,7 +160,7 @@
             "color": "#ED8535"
           },
           "sum_2": { "display": "bar", "color": "#88BF4D" },
-          "sum": { "color": "#509EE3", "display": "line" }
+          "sum": { "color": "#5A479C", "display": "line" }
         },
         "graph.y_axis.scale": "log",
         "graph.y_axis.auto_split": false,
@@ -397,7 +397,7 @@
             "color": "#ED8535"
           },
           "sum_2": { "display": "bar", "color": "#88BF4D" },
-          "sum": { "color": "#509EE3", "display": "line" }
+          "sum": { "color": "#5A479C", "display": "line" }
         },
         "graph.y_axis.scale": "log",
         "graph.y_axis.auto_split": false,

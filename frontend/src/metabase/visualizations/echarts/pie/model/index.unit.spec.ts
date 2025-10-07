@@ -87,7 +87,7 @@ describe("getPieChartModel", () => {
         key: "1980",
         name: "1 980 to 1 990",
         originalName: "1 980 to 1 990",
-        color: "#509EE3",
+        color: "#5A479C",
         defaultColor: true,
         enabled: true,
         hidden: false,

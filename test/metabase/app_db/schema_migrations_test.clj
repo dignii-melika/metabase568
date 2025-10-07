@@ -539,10 +539,10 @@
                     config/load-sample-content? (constantly false)]
         (let [collection-id (first (t2/insert-returning-pks! (t2/table-name :model/Collection) {:name "Amazing collection"
                                                                                                 :slug "amazing_collection"
-                                                                                                :color "#509EE3"}))]
+                                                                                                :color "#5A479C"}))]
 
           (testing "Collection should exist and have the color set by the user prior to migration"
-            (is (= "#509EE3" (:color (t2/select-one :model/Collection :id collection-id)))))
+            (is (= "#5A479C" (:color (t2/select-one :model/Collection :id collection-id)))))
 
           (migrate!)
           (testing "should drop the existing color column"

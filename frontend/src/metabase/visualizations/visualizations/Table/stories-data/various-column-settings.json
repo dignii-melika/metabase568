@@ -35124,7 +35124,7 @@
             "type": "single",
             "operator": "not-null",
             "value": "",
-            "color": "#509EE3",
+            "color": "#5A479C",
             "highlight_row": true
           },
           {
@@ -35277,7 +35277,7 @@
             "type": "single",
             "operator": "not-null",
             "value": "",
-            "color": "#509EE3",
+            "color": "#5A479C",
             "highlight_row": true
           },
           {

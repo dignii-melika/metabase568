@@ -60,7 +60,7 @@ describe("scenarios > visualizations > sankey", () => {
       .click();
 
     // Shows colored edges by default
-    H.sankeyEdge("#509EE3");
+    H.sankeyEdge("#5A479C");
 
     // Set edge colors to Gray
     cy.get("@settings-sidebar").findByText("Gray").click();

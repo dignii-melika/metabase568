@@ -1012,7 +1012,7 @@ describe("scenarios > embedding > dashboard appearance", () => {
 
       // TODO: Enable this once we fix the flakiness https://app.trunk.io/metabase/flaky-tests/test/facb35f0-6d76-5e7d-b21c-40401bbc3ff6?repo=metabase%2Fmetabase
       // (metabase#49537)
-      // chartPathWithFillColor("#509EE3").last().realHover();
+      // chartPathWithFillColor("#5A479C").last().realHover();
       // echartsTooltip().should("be.visible");
       // assertEChartsTooltip({
       //   header: "August 2022",

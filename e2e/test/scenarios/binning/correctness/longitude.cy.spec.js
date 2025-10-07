@@ -27,7 +27,7 @@ describe("scenarios > binning > correctness > longitude", () => {
         cy.findByText("Done").click();
 
         getTitle(`Count by Longitude: ${selected}`);
-        H.chartPathWithFillColor("#509EE3");
+        H.chartPathWithFillColor("#5A479C");
 
         assertOnXYAxisLabels();
         assertOnXAxisTicks(representativeValues);

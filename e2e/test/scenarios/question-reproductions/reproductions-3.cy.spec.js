@@ -3050,7 +3050,7 @@ describe("Issue 42942", () => {
     });
     H.visualize();
 
-    H.chartPathWithFillColor("#509EE3").first().click();
+    H.chartPathWithFillColor("#5A479C").first().click();
     H.popover().findByText("See these Orders").click();
 
     cy.log(

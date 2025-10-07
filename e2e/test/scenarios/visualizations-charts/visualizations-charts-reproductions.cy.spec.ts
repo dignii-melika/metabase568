@@ -209,14 +209,14 @@ describe("issue 47847", () => {
       },
     });
 
-    H.cartesianChartCircleWithColor("#509EE3").eq(0).trigger("mousemove");
+    H.cartesianChartCircleWithColor("#5A479C").eq(0).trigger("mousemove");
     H.assertEChartsTooltip({
       header: "April 24–30, 2022",
       blurAfter: false,
       footer: null,
       rows: [
         {
-          color: "#509EE3",
+          color: "#5A479C",
           name: "Count",
           value: "1",
         },

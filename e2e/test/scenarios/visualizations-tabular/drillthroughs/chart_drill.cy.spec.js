@@ -154,7 +154,7 @@ describe("scenarios > visualizations > drillthroughs > chart drill", () => {
             H.visitDashboard(DASHBOARD_ID);
 
             cy.log("The first series line");
-            H.cartesianChartCircleWithColor("#509EE3").eq(0).click();
+            H.cartesianChartCircleWithColor("#5A479C").eq(0).click();
             cy.findByText("See this year by quarter");
             cy.findByText("See these Orders");
 
@@ -217,7 +217,7 @@ describe("scenarios > visualizations > drillthroughs > chart drill", () => {
             H.visitDashboard(DASHBOARD_ID);
 
             cy.log("The first series line");
-            H.cartesianChartCircleWithColor("#509EE3").eq(0).click();
+            H.cartesianChartCircleWithColor("#5A479C").eq(0).click();
             cy.findByText("See this year by quarter");
             cy.findByText("See these Orders");
 
@@ -264,7 +264,7 @@ describe("scenarios > visualizations > drillthroughs > chart drill", () => {
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.contains("Count by City");
 
-    H.chartPathWithFillColor("#509EE3").first().click();
+    H.chartPathWithFillColor("#5A479C").first().click();
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.contains("See this CA Person").click();
 
@@ -718,7 +718,7 @@ describe("scenarios > visualizations > drillthroughs > chart drill", () => {
 
       // Drill-through the last bar (Widget)
       // eslint-disable-next-line no-unsafe-element-filtering
-      H.chartPathWithFillColor("#509EE3").last().click();
+      H.chartPathWithFillColor("#5A479C").last().click();
       H.popover().findByTextEnsureVisible("See these Products").click();
     });
 

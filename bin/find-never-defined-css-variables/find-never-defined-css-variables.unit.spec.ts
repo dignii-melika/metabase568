@@ -8,7 +8,7 @@ describe("extractVariableDefinitionsFromFileContent", () => {
     const content = `
       .my-class {
         color: var(--should-not-be-extracted);
-        --color-brand: #509ee3;
+        --color-brand: #5A479C;
         --color-text: #000;
       }
     `;

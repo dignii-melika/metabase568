@@ -88,7 +88,7 @@ describe("scenarios > visualizations > bar chart", () => {
         },
       });
 
-      H.chartPathWithFillColor("#509EE3").should("have.length", 5); // there are six bars when null isn't filtered
+      H.chartPathWithFillColor("#5A479C").should("have.length", 5); // there are six bars when null isn't filtered
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("1,800"); // correct data has this on the y-axis
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
@@ -817,7 +817,7 @@ describe("scenarios > visualizations > bar chart", () => {
   });
 
   it.skip("should allow grouping series into a single 'Other' series", () => {
-    const AK_SERIES_COLOR = "#509EE3";
+    const AK_SERIES_COLOR = "#5A479C";
 
     const USER_STATE_FIELD_REF = [
       "field",

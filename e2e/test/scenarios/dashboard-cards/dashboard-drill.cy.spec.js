@@ -625,13 +625,13 @@ describe("scenarios > dashboard > dashboard drill", () => {
           `/api/dashboard/${DASHBOARD_ID}/dashcard/*/card/${QUESTION_ID}/query`,
         ).as("cardQuery");
 
-        H.chartPathWithFillColor("#509EE3")
+        H.chartPathWithFillColor("#5A479C")
           .eq(14) // August 2023 (Total of 12 reviews, 9 unique days)
           .click();
 
         cy.wait("@cardQuery");
         cy.url().should("include", "2023-08");
-        H.chartPathWithFillColor("#509EE3").should("have.length", 1);
+        H.chartPathWithFillColor("#5A479C").should("have.length", 1);
         // Since hover doesn't work in Cypress we can't assert on the popover that's shown when one hovers the bar
         // But when this issue gets fixed, Y-axis should definitely show "12" (total count of reviews)
         H.echartsContainer().get("text").contains("12");
@@ -664,13 +664,13 @@ describe("scenarios > dashboard > dashboard drill", () => {
         H.visitDashboard(dashboard_id);
 
         // click the first bar on the card's graph and do a zoom drill-through
-        H.chartPathWithFillColor("#509EE3").eq(0).click();
+        H.chartPathWithFillColor("#5A479C").eq(0).click();
         cy.findByText("See this month by week").click();
 
         cy.wait("@dataset");
 
         // check that the display is still a bar chart by checking that a .bar element exists
-        H.chartPathWithFillColor("#509EE3").should("exist");
+        H.chartPathWithFillColor("#5A479C").should("exist");
       },
     );
   });

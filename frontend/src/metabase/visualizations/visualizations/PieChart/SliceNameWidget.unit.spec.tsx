@@ -6,7 +6,7 @@ const MOCK_PIE_ROW = {
   key: "some-key",
   name: "some-name",
   originalName: "some-original-name",
-  color: "#509EE3",
+  color: "#5A479C",
   defaultColor: true,
   enabled: true,
   hidden: false,

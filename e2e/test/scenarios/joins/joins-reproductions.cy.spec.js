@@ -840,7 +840,7 @@ describe("issue 23293", () => {
       );
 
       // Click on the first bar
-      H.chartPathWithFillColor("#509EE3").first().realClick();
+      H.chartPathWithFillColor("#5A479C").first().realClick();
       H.popover()
         .findByText(/^See these/)
         .click();
@@ -1038,7 +1038,7 @@ describe("issue 30743", () => {
 
     H.visualize();
     // Check bars count
-    H.chartPathWithFillColor("#509EE3").should("have.length", 4);
+    H.chartPathWithFillColor("#5A479C").should("have.length", 4);
   });
 });
 

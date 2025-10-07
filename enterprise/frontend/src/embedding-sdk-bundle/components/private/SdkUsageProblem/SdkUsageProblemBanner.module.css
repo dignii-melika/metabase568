@@ -25,7 +25,7 @@
 }
 
 .Indicator .Content .PillTitle {
-  color: #509ee3;
+  color: #5A479C;
   margin-left: 0.37rem;
 }
 
@@ -34,6 +34,6 @@
 }
 
 .DocsButton:not([data-css-specificity-hack="🤣"]) {
-  color: #509ee3;
-  border: 1px solid #509ee3;
+  color: #5A479C;
+  border: 1px solid #5A479C;
 }

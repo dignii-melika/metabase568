@@ -75,7 +75,7 @@ describe("scenarios > binning > from a saved sql question", () => {
 
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("Count by TOTAL: 50 bins");
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
 
     it("should work for longitude", () => {
@@ -89,7 +89,7 @@ describe("scenarios > binning > from a saved sql question", () => {
 
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("Count by LONGITUDE: 10°");
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
   });
 
@@ -145,7 +145,7 @@ describe("scenarios > binning > from a saved sql question", () => {
         assertOnResponse(response);
       });
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
 
     it("should work for longitude", () => {
@@ -162,7 +162,7 @@ describe("scenarios > binning > from a saved sql question", () => {
         assertOnResponse(response);
       });
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
   });
 
@@ -204,7 +204,7 @@ describe("scenarios > binning > from a saved sql question", () => {
       assertOnXYAxisLabels({ xLabel: "TOTAL", yLabel: "Count" });
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("Count by TOTAL: Auto binned");
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
     });
 
     it("should work for longitude", () => {
@@ -215,7 +215,7 @@ describe("scenarios > binning > from a saved sql question", () => {
       assertOnXYAxisLabels({ xLabel: "LONGITUDE", yLabel: "Count" });
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("Count by LONGITUDE: Auto binned");
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("170° W");
     });

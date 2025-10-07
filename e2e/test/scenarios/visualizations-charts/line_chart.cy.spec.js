@@ -116,7 +116,7 @@ describe("scenarios > visualizations > line chart", () => {
     cy.icon("line").click();
 
     // should be a line chart
-    H.cartesianChartCircleWithColor("#509EE3");
+    H.cartesianChartCircleWithColor("#5A479C");
   });
 
   it("should reset stacking settings when switching to line chart (metabase#43538)", () => {
@@ -270,12 +270,12 @@ describe("scenarios > visualizations > line chart", () => {
       },
     });
 
-    H.cartesianChartCircleWithColor("#509EE3").eq(3).realHover();
+    H.cartesianChartCircleWithColor("#5A479C").eq(3).realHover();
     H.assertEChartsTooltip({
       header: "2.7",
       rows: [
         {
-          color: "#509EE3",
+          color: "#5A479C",
           name: "Count",
           value: "191",
         },

@@ -518,7 +518,7 @@ describe("admin > permissions > sandboxes (tested via the API)", () => {
         // Drill-through
         cy.findByTestId("query-visualization-root").within(() => {
           // Click on the first bar in a graph (Category: "Doohickey")
-          H.chartPathWithFillColor("#509EE3").eq(0).click();
+          H.chartPathWithFillColor("#5A479C").eq(0).click();
         });
         // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
         cy.findByText("See these Orders").click();
@@ -605,7 +605,7 @@ describe("admin > permissions > sandboxes (tested via the API)", () => {
       // Drill-through
       cy.findByTestId("query-visualization-root").within(() => {
         // Click on the first bar in a graph (Category: "Doohickey")
-        H.chartPathWithFillColor("#509EE3").eq(0).click();
+        H.chartPathWithFillColor("#5A479C").eq(0).click();
       });
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("See these Orders").click();
@@ -901,7 +901,7 @@ describe("admin > permissions > sandboxes (tested via the API)", () => {
         // Drill-through
         cy.findByTestId("query-visualization-root").within(() => {
           // Click on the second bar in a graph (Category: "Widget")
-          H.chartPathWithFillColor("#509EE3").eq(1).click();
+          H.chartPathWithFillColor("#5A479C").eq(1).click();
         });
         // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
         cy.findByText("See these Orders").click();

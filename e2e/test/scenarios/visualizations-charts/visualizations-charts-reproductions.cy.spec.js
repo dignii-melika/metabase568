@@ -496,12 +496,12 @@ describe("issue 20548", () => {
     removeAggregationItem("Count");
     // Ensure bars of only one series exist
     H.chartPathWithFillColor("#88BF4D").should("have.length", 4);
-    H.chartPathWithFillColor("#509EE3").should("not.exist");
+    H.chartPathWithFillColor("#5A479C").should("not.exist");
 
     addAggregationItem("Count");
     // Ensure bars of two series exist
     H.chartPathWithFillColor("#88BF4D").should("have.length", 4);
-    H.chartPathWithFillColor("#509EE3").should("have.length", 4);
+    H.chartPathWithFillColor("#5A479C").should("have.length", 4);
 
     // Although the test already fails on the previous step, let's add some more assertions to prevent future regressions
     assertOnLegendItemFrequency("Count", 1);
@@ -880,14 +880,14 @@ describe("issue 27279", () => {
           value: "(empty)",
         },
         {
-          color: "#509EE3",
+          color: "#5A479C",
           name: "0",
           value: "(empty)",
         },
       ],
     });
 
-    H.chartPathWithFillColor("#509EE3").realHover();
+    H.chartPathWithFillColor("#5A479C").realHover();
     H.assertEChartsTooltip({
       header: "F2022",
       rows: [
@@ -907,7 +907,7 @@ describe("issue 27279", () => {
           value: "(empty)",
         },
         {
-          color: "#509EE3",
+          color: "#5A479C",
           name: "0",
           value: "4",
         },

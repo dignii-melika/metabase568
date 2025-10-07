@@ -111,7 +111,7 @@ describe("scenarios > x-rays", { tags: "@slow" }, () => {
           { visitQuestion: true },
         );
 
-        H.chartPathWithFillColor("#509EE3").first().click({ force: true });
+        H.chartPathWithFillColor("#5A479C").first().click({ force: true });
 
         H.popover().within(() => {
           cy.findByText("Automatic insights…").click();
@@ -155,7 +155,7 @@ describe("scenarios > x-rays", { tags: "@slow" }, () => {
         display: "bar",
       });
 
-      H.chartPathWithFillColor("#509EE3").first().click();
+      H.chartPathWithFillColor("#5A479C").first().click();
 
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("Automatic insights…").click();
@@ -290,14 +290,14 @@ describe("scenarios > x-rays", { tags: "@slow" }, () => {
     cy.url().should("contain", "/question");
 
     // Bars
-    H.chartPathWithFillColor("#509EE3").should("have.length", 5);
-    H.chartPathWithFillColor("#509EE3").eq(0).realHover();
+    H.chartPathWithFillColor("#5A479C").should("have.length", 5);
+    H.chartPathWithFillColor("#5A479C").eq(0).realHover();
 
     H.assertEChartsTooltip({
       header: "Affiliate",
       rows: [
         {
-          color: "#509EE3",
+          color: "#5A479C",
           name: "Count",
           value: "3,520",
         },

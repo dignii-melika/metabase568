@@ -3,8 +3,8 @@ import chalk from "chalk";
 const MAX_WIDTH = 80;
 
 export const OUTPUT_STYLES = {
-  title: chalk.bold.bgHex("#509EE3").white,
-  version: chalk.hex("#509EE3"),
+  title: chalk.bold.bgHex("#5A479C").white,
+  version: chalk.hex("#5A479C"),
   link: chalk.underline.blueBright,
   error: chalk.red.bold,
   warning: chalk.yellow.bold,

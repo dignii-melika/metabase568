@@ -20,7 +20,7 @@ describe("scenarios > binning > binning options", () => {
 
       getTitle("Count by Total: 50 bins");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("70");
     });
@@ -50,7 +50,7 @@ describe("scenarios > binning > binning options", () => {
 
       getTitle("Count by Longitude: 20°");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("180° W");
     });
@@ -68,7 +68,7 @@ describe("scenarios > binning > binning options", () => {
 
       getTitle("Count by Total: 50 bins");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("70");
     });
@@ -100,7 +100,7 @@ describe("scenarios > binning > binning options", () => {
 
       getTitle("Count by Longitude: 20°");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("180° W");
     });
@@ -115,7 +115,7 @@ describe("scenarios > binning > binning options", () => {
 
       getTitle("Count by Total: Auto binned");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("60");
     });
@@ -141,7 +141,7 @@ describe("scenarios > binning > binning options", () => {
 
       getTitle("Count by Longitude: Auto binned");
 
-      H.chartPathWithFillColor("#509EE3");
+      H.chartPathWithFillColor("#5A479C");
       // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
       cy.findByText("170° W");
     });

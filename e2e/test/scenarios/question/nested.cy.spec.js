@@ -52,7 +52,7 @@ describe("scenarios > question > nested", () => {
     cy.wait("@dataset");
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.contains("Count by Total: Auto binned");
-    H.chartPathWithFillColor("#509EE3").should("have.length.of.at.least", 8);
+    H.chartPathWithFillColor("#5A479C").should("have.length.of.at.least", 8);
 
     // Go back to the nested question and make sure Sum over time works
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
@@ -90,7 +90,7 @@ describe("scenarios > question > nested", () => {
     cy.wait("@dataset");
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.contains("Count by COUNT: Auto binned");
-    H.chartPathWithFillColor("#509EE3").should("have.length.of.at.least", 5);
+    H.chartPathWithFillColor("#5A479C").should("have.length.of.at.least", 5);
 
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.findByText("Nested SQL").click();
@@ -300,7 +300,7 @@ describe("scenarios > question > nested", () => {
       cy.findByText("Group by").parent().findByText("COUNT(*)").click();
       cy.wait("@dataset");
 
-      H.chartPathWithFillColor("#509EE3").should("have.length.of.at.least", 5);
+      H.chartPathWithFillColor("#5A479C").should("have.length.of.at.least", 5);
 
       // Replace "Count" with the "Average"
       cy.findByTestId("aggregation-item").contains("Count").click();

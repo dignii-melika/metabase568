@@ -30,10 +30,10 @@ describe("scenarios > embedding > sdk iframe embed setup > user settings persist
     });
 
     cy.log("1. change brand color to red");
-    cy.findByLabelText("#509EE3").click();
+    cy.findByLabelText("#5A479C").click();
 
     H.popover().within(() => {
-      cy.findByDisplayValue("#509EE3")
+      cy.findByDisplayValue("#5A479C")
         .should("be.visible")
         .clear()
         .type("rgb(255, 0, 0)")

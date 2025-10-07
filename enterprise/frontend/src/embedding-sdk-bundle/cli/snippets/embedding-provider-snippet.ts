@@ -57,7 +57,7 @@ const THEMES = {
   // Light theme
   light: {
     colors: {
-      brand: '#509EE3',
+      brand: '#5A479C',
       filter: '#7172AD',
       'text-primary': '#4C5773',
       'text-secondary': '#696E7B',
@@ -73,7 +73,7 @@ const THEMES = {
   // Dark theme
   dark: {
     colors: {
-      brand: '#509EE3',
+      brand: '#5A479C',
       filter: '#7172AD',
       'text-primary': '#FFFFFF',
       'text-secondary': '#FFFFFF',

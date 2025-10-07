@@ -827,7 +827,7 @@ describe("scenarios > visualizations > table > conditional formatting", () => {
               type: "single",
               operator: "<",
               value: 3,
-              color: "#509EE3",
+              color: "#5A479C",
               highlight_row: false,
               columns: ["TAX"],
             },

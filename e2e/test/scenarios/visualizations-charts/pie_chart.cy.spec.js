@@ -243,7 +243,7 @@ describe("scenarios > visualizations > pie chart", () => {
 
     H.popover().within(() => {
       // Change color
-      cy.findByLabelText("#509EE3").click();
+      cy.findByLabelText("#5A479C").click();
     });
 
     cy.findByTestId("Widget-settings-button").click();
@@ -255,7 +255,7 @@ describe("scenarios > visualizations > pie chart", () => {
     });
 
     ensurePieChartRendered(["Woooget", "Gadget", "Gizmo", "Doohickey"]);
-    H.chartPathWithFillColor("#509EE3").should("be.visible");
+    H.chartPathWithFillColor("#5A479C").should("be.visible");
 
     cy.findByTestId("chart-legend").within(() => {
       cy.get("li").eq(2).contains("Woooget");
@@ -280,7 +280,7 @@ describe("scenarios > visualizations > pie chart", () => {
     ensurePieChartRendered(["Doohickey", "Katget", "Gizmo", "Woooget"]);
 
     cy.findByTestId("chart-legend").findByText("Woooget").realHover();
-    H.chartPathWithFillColor("#509EE3").should("be.visible");
+    H.chartPathWithFillColor("#5A479C").should("be.visible");
 
     cy.findByTestId("chart-legend").within(() => {
       cy.get("li").eq(1).contains("Katget");

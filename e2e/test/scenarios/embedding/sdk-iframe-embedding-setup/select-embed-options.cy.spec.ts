@@ -387,11 +387,11 @@ H.describeWithSnowplow(suiteTitle, () => {
     getEmbedSidebar().findByLabelText("Reset colors").should("not.exist");
 
     cy.log("click on brand color picker");
-    cy.findByLabelText("#509EE3").click();
+    cy.findByLabelText("#5A479C").click();
 
     cy.log("change brand color to red");
     H.popover().within(() => {
-      cy.findByDisplayValue("#509EE3")
+      cy.findByDisplayValue("#5A479C")
         .should("be.visible")
         .clear()
         .type("rgb(255, 0, 0)");
@@ -450,9 +450,9 @@ H.describeWithSnowplow(suiteTitle, () => {
     });
 
     cy.log("change brand color");
-    cy.findByLabelText("#509EE3").click();
+    cy.findByLabelText("#5A479C").click();
     H.popover().within(() => {
-      cy.findByDisplayValue("#509EE3").clear().type("#BD51FD");
+      cy.findByDisplayValue("#5A479C").clear().type("#BD51FD");
     });
 
     cy.log("change primary text color");

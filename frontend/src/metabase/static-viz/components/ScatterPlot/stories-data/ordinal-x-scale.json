@@ -133,7 +133,7 @@
       "visualization_settings": {
         "series_settings": {
           "attack": {
-            "color": "#509EE3",
+            "color": "#5A479C",
             "display": "scatter",
             "line.interpolate": "linear",
             "line.marker_enabled": null,
@@ -1364,7 +1364,7 @@
         }
       ],
       "viz-settings": {
-        "series_settings": { "attack": { "color": "#509EE3" } },
+        "series_settings": { "attack": { "color": "#5A479C" } },
         "graph.dimensions": ["type_1"],
         "graph.series_order_dimension": null,
         "graph.series_order": null,

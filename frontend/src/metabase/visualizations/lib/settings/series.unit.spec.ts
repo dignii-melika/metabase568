@@ -31,7 +31,7 @@ describe("Series unit settings", () => {
 
       const colors = getColors(series, settings);
       expect(colors).toEqual({
-        count: "#509EE3",
+        count: "#5A479C",
       });
     });
 
@@ -82,7 +82,7 @@ describe("Series unit settings", () => {
 
       const colors = getColors(series, settings);
       expect(colors).toEqual({
-        COLUMN_2: "#509EE3", // This is the color for "count"
+        COLUMN_2: "#5A479C", // This is the color for "count"
       });
     });
   });

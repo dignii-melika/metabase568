@@ -120,7 +120,7 @@
         "graph.y_axis.scale": "linear",
         "series_settings": {
           "sum": { "color": "#F7C41F", "display": "area" },
-          "sum_2": { "color": "#509EE3", "display": "area" }
+          "sum_2": { "color": "#5A479C", "display": "area" }
         },
         "stackable.stack_type": "stacked",
         "graph.metrics": ["sum", "sum_2"]
@@ -200,7 +200,7 @@
         "metabase.models.visualization-settings/global-column-settings": {},
         "series_settings": {
           "sum": { "color": "#F7C41F", "display": "area" },
-          "sum_2": { "color": "#509EE3", "display": "area" }
+          "sum_2": { "color": "#5A479C", "display": "area" }
         },
         "graph.dimensions": ["CREATED_AT"],
         "stackable.stack_type": "stacked"

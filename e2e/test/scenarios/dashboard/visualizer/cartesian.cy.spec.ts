@@ -252,7 +252,7 @@ describe("scenarios > dashboard > visualizer > cartesian", () => {
     });
 
     H.modal().within(() => {
-      H.chartPathWithFillColor("#509EE3").should("have.length", 4);
+      H.chartPathWithFillColor("#5A479C").should("have.length", 4);
     });
   });
 
@@ -280,7 +280,7 @@ describe("scenarios > dashboard > visualizer > cartesian", () => {
       assertDataSourceColumnSelected("Average of Quantity", false);
       assertDataSourceColumnSelected("Created At: Year");
       assertDataSourceColumnSelected("Product → Category", false);
-      H.chartPathWithFillColor("#509EE3").should("have.length", 5);
+      H.chartPathWithFillColor("#5A479C").should("have.length", 5);
       H.verticalWell().findAllByTestId("well-item").should("have.length", 1);
       H.horizontalWell().findAllByTestId("well-item").should("have.length", 1);
 

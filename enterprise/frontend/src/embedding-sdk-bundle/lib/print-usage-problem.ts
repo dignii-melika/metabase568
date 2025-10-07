@@ -4,10 +4,10 @@ import { match } from "ts-pattern";
 
 import type { SdkUsageProblem } from "embedding-sdk-bundle/types/usage-problem";
 
-const HEADER_STYLE = "color: #509ee3; font-size: 16px; font-weight: bold;";
+const HEADER_STYLE = "color: #5A479C; font-size: 16px; font-weight: bold;";
 const TEXT_STYLE = "font-size: 14px;";
 const LINK_STYLE =
-  "color: #509ee3; font-size: 14px; text-decoration: underline;";
+  "color: #5A479C; font-size: 14px; text-decoration: underline;";
 
 export function printUsageProblemToConsole(problem: SdkUsageProblem | null) {
   if (!problem) {

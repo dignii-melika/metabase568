@@ -34,7 +34,7 @@ const layout = {
     // eslint-disable-next-line no-color-literals
     textMedium: "#949aab",
     // eslint-disable-next-line no-color-literals
-    brand: "#509ee3",
+    brand: "#5A479C",
     // eslint-disable-next-line no-color-literals
     border: "#f0f0f0",
   },

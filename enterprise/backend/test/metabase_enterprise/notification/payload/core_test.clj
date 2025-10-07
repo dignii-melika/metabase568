@@ -10,7 +10,7 @@
     (mt/with-additional-premium-features #{:whitelabel}
       (mt/with-temporary-setting-values
         [application-name   "Metabase Test"
-         application-colors {:brand "#509EE3"}
+         application-colors {:brand "#5A479C"}
          site-name          "Metabase Test"
          site-url           "https://metabase.com"
          admin-email        "ngoc@metabase.com"]
@@ -19,7 +19,7 @@
                                :event_topic :event/user-joined
                                :custom      {}}
                 :context     {:application_name     "Metabase Test"
-                              :application_color    "#509EE3"
+                              :application_color    "#5A479C"
                               :application_logo_url "http://static.metabase.com/email_logo.png"
                               :include_branding     false
                               :site_name            "Metabase Test"

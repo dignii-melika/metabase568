@@ -173,20 +173,20 @@ const AVG_DISCOUNT_SUM_DISCOUNT = {
 };
 
 function testAvgDiscountChange(seriesName = "Average of Discount") {
-  showTooltipForCircleInSeries("#509EE3", 0);
+  showTooltipForCircleInSeries("#5A479C", 0);
   H.echartsTooltip().within(() => {
     H.tooltipHeader("2022");
     H.assertTooltipRow(seriesName, {
-      color: "#509EE3",
+      color: "#5A479C",
       value: "5.03",
     });
   });
 
-  showTooltipForCircleInSeries("#509EE3", 1);
+  showTooltipForCircleInSeries("#5A479C", 1);
   H.echartsTooltip().within(() => {
     H.tooltipHeader("2023");
     H.assertTooltipRow(seriesName, {
-      color: "#509EE3",
+      color: "#5A479C",
       value: "5.41",
       secondaryValue: "+7.54%",
     });
@@ -258,7 +258,7 @@ describe("scenarios > visualizations > line/bar chart > tooltips", () => {
     const SUM_OF_TOTAL = "Sum of Total";
     const AVG_OF_QUANTITY = "Average of Quantity";
 
-    const COUNT_COLOR = "#509EE3";
+    const COUNT_COLOR = "#5A479C";
     const DOOHICKEY_COLOR = "#88BF4D";
 
     const testQuestion = {
@@ -614,7 +614,7 @@ describe("scenarios > visualizations > line/bar chart > tooltips", () => {
       const circleIndex = 1;
 
       const originalSeriesColors = ["#A989C5", "#88BF4D"];
-      const addedSeriesColors = ["#509EE3", "#98D9D9"];
+      const addedSeriesColors = ["#5A479C", "#98D9D9"];
       const originalAvgSeriesName = "Q1: Average of Total";
       const originalCumSumSeriesName = "Q1: Cumulative sum of Quantity";
       const updatedOriginalAvgSeriesName = "Q1 Custom 1";
