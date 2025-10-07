@@ -14,7 +14,7 @@ describe("scenarios > admin > tools > help", { tags: "@OSS" }, () => {
     cy.visit("/admin/tools/help");
 
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
-    cy.findByText("Metabase Admin");
+    cy.findByText("Dignii Dashboard Admin");
     // eslint-disable-next-line no-unscoped-text-selectors -- deprecated usage
     cy.findByText("Get help")
       .parents("a")
