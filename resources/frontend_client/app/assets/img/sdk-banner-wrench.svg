@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 14" width="13" height="14">
+	<defs>
+		<image  width="13" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAMAAADDoWbgAAAAAXNSR0IB2cksfwAAANVQTFRFAAAAAP//akvKa0vIa0zIYVLSaEjDa0zIeFfMdVXKb1DIbEnHa0/HbU3Hbk3K0bvrn37ab1DKgUWfbUzHcEzQa03KhmPS9/L7b0/KakzHd1fMbE3I1cHt////f13OakzIdVPK0bvth2PQ/v3/b0/KbEvHb1DIvaDjbEzKaUvHbUvIcE/KfVvObU3KvKDjaUvYbEjDaU3Ia0zKbEzIbU3KcD/WbFLOa0/Fak3IakvKaUvHbVPYjm3Uak3IZ1DIjm3Ua0vIbEvHak3KakzKaUvHbU/Ma0/UoXUzNAAAAEd0Uk5TAAFegFwLIf/8+eYsI339//zgBXwVyfr//Ef8vP//92T6//n//Wvs/vtOUej5/v4NQnWMkPwMKTMtejQZ+oob+1Nop3saOyPgboU4AAAAiElEQVR4nD3OsQrCQBAE0BljTjCJEBHSCGJrY2UlpPKrBb8jhZWVIBgLcxZ7IO4u6nSv2JklQEuChUBwRheLoXL2plFeOng1Zc1QPWeqi2m8JIV6ezbl69skAFOys84N7wvKqxYlsfUOedQhdrq383WlzOk/YP9WrvgV2pSKWP6ENiNPf+FAHj/BZiLGTlK/rwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Color Balance 1" href="#img1" x="0" y="0"/>
+</svg>

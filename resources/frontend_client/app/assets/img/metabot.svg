@@ -1,0 +1,22 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 35" width="50" height="35">
+	<title>metabot-svg</title>
+	<defs>
+		<image  width="14" height="6" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAGCAMAAADExV+OAAAAAXNSR0IB2cksfwAAAJNQTFRFUJfflobBlobBoIO8oIO8oIO8oIO8oIO8oIO8kYjDjonEmYW/UJvfmIbAnYS9moS+oIO8m4W+moW/AAAAl4bAn4O8moW+lobAnoS9oIO8bJLTlobBnYS+n4O9nIS+moW/nYS9bJLTm4W+mYa/m4W/nIW+nIS+mIXAoIO8nIS+noS9m4W+m4W+nYS+n4O8oIO8oIO8jMRo0wAAADF0Uk5TFAIBAAUWAhgVAwQAI///////2wD5/////nwr/f/////gH/f////70wi66e/w6fDQHeIyKHEAAABVSURBVHicJcdVFoAgEADAtTGw1hawO+9/OvU5fwMgyYqq6QYhxLRscKjr+T8ahICRGydf4iDNcsCiZIwzLipKawRUmrarRJ8M4zS/RZyXdduP87oRH+55ByJ38kRzAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #5a479c } 
+		.s1 { fill: #c6bbe1 } 
+		.s2 { fill: #a083bc } 
+		.s3 { fill: #2e353b } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m0 4c0-2.21 1.79-4 4-4h42c2.21 0 4 1.79 4 4v27c0 2.21-1.79 4-4 4h-42c-2.21 0-4-1.79-4-4v-27z" />
+		<path id="Layer" class="s1" d="m3 5c0-1.1 0.9-2 2-2h40c1.1 0 2 0.9 2 2v21c0 1.1-0.9 2-2 2h-40c-1.1 0-2-0.9-2-2v-21z" />
+		<path id="Layer" class="s2" d="m14.83 14c-1.01 0-1.83-1.12-1.83-2.5c0-1.38 0.82-2.5 1.83-2.5c1.01 0 1.83 1.12 1.83 2.5c0 1.38-0.82 2.5-1.83 2.5z" />
+		<path id="Layer" class="s2" d="m34.83 14c-1.01 0-1.83-1.12-1.83-2.5c0-1.38 0.82-2.5 1.83-2.5c1.01 0 1.83 1.12 1.83 2.5c0 1.38-0.82 2.5-1.83 2.5z" />
+		<use id="Layer" href="#img1" x="18" y="16" />
+		<path id="Layer" class="s3" d="m44 31c0-0.55 0.45-1 1-1v0c0.55 0 1 0.45 1 1v0c0 0.55-0.45 1-1 1v0c-0.55 0-1-0.45-1-1v0z" />
+		<path id="Layer" class="s3" d="m40 31c0-0.55 0.45-1 1-1v0c0.55 0 1 0.45 1 1v0c0 0.55-0.45 1-1 1v0c-0.55 0-1-0.45-1-1v0z" />
+	</g>
+</svg>
