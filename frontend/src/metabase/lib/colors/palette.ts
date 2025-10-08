@@ -14,16 +14,20 @@ export const ACCENT_COUNT = 8;
 // frontend/src/metabase/styled-components/theme/css-variables.ts
 export const colors = {
   brand: "#5A479C",
-  summarize: "#88BF4D",
+  summarize: "#bf4d8e",
   filter: "#7172AD",
-  accent0: "#5A479C",
-  accent1: "#88BF4D",
-  accent2: "#A989C5",
-  accent3: "#EF8C8C",
-  accent4: "#F9D45C",
-  accent5: "#F2A86F",
-  accent6: "#98D9D9",
-  accent7: "#7172AD",
+  accent0: "#fd806f",
+  accent1: "#00b7ff",
+  accent2: "#C71585",
+  accent3: "#1a53ff",
+  accent4: "#14ffa9",
+  accent5: "#836ff3",
+  accent6: "#ffee65",
+  accent7: "#b30000",
+
+
+
+  
   "accent-gray": "#F3F3F4", // Orion 10 (--mb-base-color-orion-10)
   "accent-gray-light": "#FAFAFB", // Orion 5 (--mb-base-color-orion-5)
   "accent-gray-dark": "#DCDFE0", // Orion 20 (--mb-base-color-orion-20)
